@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Endpoints</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>API Endpoints</h1>
+        <p>This REST API allows you to manage 
+            <b>Todo</b> in your application.
+        </p>
+        <!--todo Api Endpoints-->
+        <section class="todo-endpoints">
+            <h3>Todo Endpoints</h3>
+            <ul class="route-list">
+                <li><span>GET</span><a href="/api/todos">/api/todos</a></li>
+                <li><span>POST</span>/api/todos</li>
+                <li><span>PUT</span>/api/todos/1</li>
+                <li><span>DELETE</span>/api/todos/1</a></li>
+            </ul>
+        </section>
+        
+        <!--How to use section-->
+        <section class="how-use">
+            <h2>How to Use</h2>
+            <ul>
+                <li><b>Base URL:</b> http://localhost:4000</li>
+                <li><b>Content Type:</b> json for POST and PUT requests</li>
+            </ul>
+            <h2>HTTP Methods</h2>
+            <ul>
+                <li><b>GET</b> - Retrieve data</li>
+                <li><b>POST</b> - Add new data</li>
+                <li><b>PUT</b> - Update existing data by ID (change the status of todolist)</li>
+                <li><b>DELETE</b> - Delete data by ID</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
