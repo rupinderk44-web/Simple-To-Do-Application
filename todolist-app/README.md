@@ -52,7 +52,9 @@ http://localhost:3000
 - react 
 
 Install all dependencies with:
-npm install
+npm install 
+npm install bootstrap
+npm install react react-dom
 
 ## Notes
 Add to .gitignore:
